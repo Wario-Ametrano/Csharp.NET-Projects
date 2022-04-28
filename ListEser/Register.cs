@@ -31,7 +31,7 @@ namespace CsvFile
         static void Main(string[] args)
         {
             string Logpath = "D:\\C#\\CorsoC#\\CsvFile\\Log.csv";
-            string PersonPath = "D:\\C#\\CorsoC#\\CsvFile\\Person.csv";
+            string StudentPath = "D:\\C#\\CorsoC#\\CsvFile\\Student.csv";
 
             var listaPersone = new List<Person>()
             {
@@ -46,7 +46,7 @@ namespace CsvFile
                
             };
 
-            scriviCsv<Person>(listaStudenti, StudentPath);
+            scriviCsv<Student>(listaStudenti, StudentPath);
             scriviCsv<Log>(logList, Logpath);
 
             print(StudentPath);
