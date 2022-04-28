@@ -36,7 +36,7 @@ namespace CsvFile
             var listaPersone = new List<Person>()
             {
                 new Person{FirstName = "aldo", IsAlive = true},
-                new Person{FirstName = "giovanni" ,IsAlive = true},
+                new Person{FirstName = "giovanni" ,IsAlive = false},
                 new Person{FirstName = "giacomo", IsAlive = true}
             };
 
@@ -46,11 +46,12 @@ namespace CsvFile
                
             };
 
-            scriviCsv<Person>(listaPersone, PersonPath);
+            scriviCsv<Person>(listaStudenti, StudentPath);
             scriviCsv<Log>(logList, Logpath);
 
-            print(PersonPath);
+            print(StudentPath);
             Console.WriteLine();
+            
             print(Logpath);     
         }
     }
