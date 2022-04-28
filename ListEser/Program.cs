@@ -35,9 +35,9 @@ namespace CsvFile
  
             var listaPersone = new List<Person>()
             {
-                new Person{FirstName = "manu", LastName = "wewe", IsAlive = true},
-                new Person{FirstName = "ema", LastName = "boh", IsAlive = true},
-                new Person{FirstName = "ciccio", LastName = "cheneso", IsAlive = true}
+                new Person{FirstName = "Aldo", IsAlive = true},
+                new Person{FirstName = "Giovanni", IsAlive = true},
+                new Person{FirstName = "Giacomo", IsAlive = true}
             };
  
           
